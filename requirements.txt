@@ -13,4 +13,4 @@ pydantic[email]==2.11.5
 httpx==0.28.1
 
 # Para PostgreSQL em produção (descomente quando necessário):
-# asyncpg==0.30.0
+asyncpg==0.30.0
