@@ -1,0 +1,16 @@
+# PythonBackend.dev — compatível com Python 3.10, 3.11, 3.12, 3.13 e 3.14
+
+fastapi==0.136.3
+uvicorn[standard]==0.34.3
+sqlalchemy[asyncio]==2.0.40
+aiosqlite==0.20.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+python-multipart==0.0.20
+pydantic-settings==2.14.1
+pydantic[email]==2.11.5
+httpx==0.28.1
+
+# Para PostgreSQL em produção (descomente quando necessário):
+# asyncpg==0.30.0
